@@ -39,3 +39,6 @@ EnableAllConfig：          开启上面所有参数<br>
     	}
     	json_diff.CheckJsonDiff(a, b, "a")
     }
+![image](https://github.com/vawait/json_diff/raw/master/image/all.png)
+SetPrintOnlyDiff(true)
+![image](https://github.com/vawait/json_diff/raw/master/image/only_diff.png)
