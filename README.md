@@ -6,13 +6,13 @@
 输入：需要对比的两个值(可以为结构体，会自动转成json)，以及需要忽略diff的key
 返回：是否有变化、错误
 
-参数
+配置
 ===
-SetDefaultValueZero：      会把所有类型默认值当成空值等价处理
-SetAutoDecodeByte：        会自动把string或者[]byte解析json
-SetBase64Decode：          需要开启AutoDecodeByte，先进行base64解码再解析json
-SetPrintOnlyDiff：         只输出有diff
-EnableAllConfig：          开启上面所有参数
+SetDefaultValueZero：      会把所有类型默认值当成空值等价处理<br>
+SetAutoDecodeByte：        会自动把string或者[]byte解析json<br>
+SetBase64Decode：          需要开启AutoDecodeByte，先进行base64解码再解析json<br>
+SetPrintOnlyDiff：         只输出有diff<br>
+EnableAllConfig：          开启上面所有参数<br>
 
 样例
 ===
